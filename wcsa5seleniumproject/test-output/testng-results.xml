@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is DemoTestNG]]>
+    </line>
+    <line>
+      <![CDATA[This is RemoTestNG]]>
+    </line>
+    <line>
+      <![CDATA[This is SumoTestNG]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-15T15:46:56 IST" name="Suite" finished-at="2023-07-15T15:46:57 IST" duration-ms="381">
+    <groups>
+    </groups>
+    <test started-at="2023-07-15T15:46:56 IST" name="Test" finished-at="2023-07-15T15:46:57 IST" duration-ms="381">
+      <class name="testNGPackage.Sumo">
+        <test-method signature="h()[pri:0, instance:testNGPackage.Sumo@750e2b97]" started-at="2023-07-15T15:46:57 IST" name="h" finished-at="2023-07-15T15:46:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is SumoTestNG]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- h -->
+      </class> <!-- testNGPackage.Sumo -->
+      <class name="testNGPackage.Demo">
+        <test-method signature="f()[pri:0, instance:testNGPackage.Demo@6340e5f0]" started-at="2023-07-15T15:46:57 IST" name="f" finished-at="2023-07-15T15:46:57 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is DemoTestNG]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNGPackage.Demo -->
+      <class name="testNGPackage.Remo">
+        <test-method signature="g()[pri:0, instance:testNGPackage.Remo@3646a422]" started-at="2023-07-15T15:46:57 IST" name="g" finished-at="2023-07-15T15:46:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is RemoTestNG]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- g -->
+      </class> <!-- testNGPackage.Remo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
