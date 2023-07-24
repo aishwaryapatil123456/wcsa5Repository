@@ -7,6 +7,7 @@ public class Flag3 {
 	
   @Test(invocationCount = 1000)
   public void method1() {
-	  Reporter.log("");
+	  
+	  Reporter.log("Method1",true);
   }
 }

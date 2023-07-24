@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAnnotation_Flags.GoogleSearchtestCase">
+      <class name="testNGAnnotation_Flags.Flag7">
         <methods>
-          <include name="search1"/>
-          <include name="setUp"/>
-          <include name="search2"/>
-          <include name="tearDown"/>
-          <include name="search3"/>
+          <include name="createUserMethod"/>
+          <include name="loginMethod"/>
         </methods>
-      </class> <!-- testNGAnnotation_Flags.GoogleSearchtestCase -->
+      </class> <!-- testNGAnnotation_Flags.Flag7 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
