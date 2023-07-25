@@ -21,7 +21,7 @@ public class DoubleClickMethod {
      	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
      	
      	//Launch the ActiTime 
-     	driver.get("http://desktop-aigvo6j/login.jsp");
+     	driver.get("http://somnath-pc/login.do");
      	
      	new WebDriverWait(driver,Duration.ofSeconds(30)).until(ExpectedConditions.titleContains(driver.getTitle()));
         	
