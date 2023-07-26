@@ -1,26 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test actual Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test executed successfully!!!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Started!!]]>
+    </line>
+    <line>
+      <![CDATA[This method failed and taken ss :createUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Skipped!!]]>
+    </line>
+    <line>
+      <![CDATA[Test finished!!]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-25T14:04:43 IST" name="Default suite" finished-at="2023-07-25T14:04:53 IST" duration-ms="9970">
+  <suite started-at="2023-07-26T14:20:00 IST" name="Default suite" finished-at="2023-07-26T14:20:12 IST" duration-ms="12778">
     <groups>
     </groups>
-    <test started-at="2023-07-25T14:04:43 IST" name="Default test" finished-at="2023-07-25T14:04:53 IST" duration-ms="9970">
-      <class name="testNGPackage.AssertionInTestNG">
-        <test-method signature="verificationMethod()[pri:0, instance:testNGPackage.AssertionInTestNG@2af004b]" started-at="2023-07-25T14:04:43 IST" name="verificationMethod" finished-at="2023-07-25T14:04:53 IST" duration-ms="9875" status="FAIL">
+    <test started-at="2023-07-26T14:20:00 IST" name="Default test" finished-at="2023-07-26T14:20:12 IST" duration-ms="12778">
+      <class name="testNGPackage.TestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:00 IST" name="setUp" finished-at="2023-07-26T14:20:06 IST" duration-ms="6084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginMethod()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:06 IST" name="loginMethod" finished-at="2023-07-26T14:20:06 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test executed successfully!!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:06 IST" name="tearDown" finished-at="2023-07-26T14:20:06 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:06 IST" name="setUp" finished-at="2023-07-26T14:20:11 IST" duration-ms="4254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUser()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:11 IST" name="createUser" finished-at="2023-07-26T14:20:12 IST" depends-on-methods="testNGPackage.TestCase.loginMethod" duration-ms="1074" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Tanmay] but found [actiTIME - Enter Time-Track]]]>
+              <![CDATA[expected [actiTIME - Login] but found [actiTIME - Enter Time-Track]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Tanmay] but found [actiTIME - Enter Time-Track]
+              <![CDATA[java.lang.AssertionError: expected [actiTIME - Login] but found [actiTIME - Enter Time-Track]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at testNGPackage.AssertionInTestNG.verificationMethod(AssertionInTestNG.java:61)
+at testNGPackage.TestCase.createUser(TestCase.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,9 +99,59 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Test Started!!]]>
+            </line>
+            <line>
+              <![CDATA[This method failed and taken ss :createUser]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verificationMethod -->
-      </class> <!-- testNGPackage.AssertionInTestNG -->
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:12 IST" name="tearDown" finished-at="2023-07-26T14:20:12 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="logout()[pri:0, instance:testNGPackage.TestCase@3a7442c7]" started-at="2023-07-26T14:20:12 IST" name="logout" finished-at="2023-07-26T14:20:12 IST" depends-on-methods="testNGPackage.TestCase.createUser" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNGPackage.TestCase.logout() on instance testNGPackage.TestCase@3a7442c7 depends on not successfully finished methods 
+[testNGPackage.TestCase.createUser() on instance testNGPackage.TestCase@3a7442c7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNGPackage.TestCase.logout() on instance testNGPackage.TestCase@3a7442c7 depends on not successfully finished methods 
+[testNGPackage.TestCase.createUser() on instance testNGPackage.TestCase@3a7442c7]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Skipped!!]]>
+            </line>
+            <line>
+              <![CDATA[Test finished!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testNGPackage.TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

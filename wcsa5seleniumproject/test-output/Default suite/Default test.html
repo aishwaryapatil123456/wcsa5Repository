@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 25 14:04:43 IST 2023</td>
+<td>Started on:</td><td>Wed Jul 26 14:20:00 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9970 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12778 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGPackage.AssertionInTestNG.verificationMethod()'><b>verificationMethod</b><br>Test class: testNGPackage.AssertionInTestNG</td>
-<td><div><pre>java.lang.AssertionError: expected [Tanmay] but found [actiTIME - Enter Time-Track]
+<td title='testNGPackage.TestCase.createUser()'><b>createUser</b><br>Test class: testNGPackage.TestCase<br/>
+<a href="#Output-1221433900" onClick='toggleBox("Output-1221433900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1221433900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1221433900">
+Test Started!!<br/>
+This method failed and taken ss :createUser<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [actiTIME - Login] but found [actiTIME - Enter Time-Track]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testNGPackage.AssertionInTestNG.verificationMethod(AssertionInTestNG.java:61)
+	at testNGPackage.TestCase.createUser(TestCase.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,15 +121,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace131301148", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace131301148'><pre>java.lang.AssertionError: expected [Tanmay] but found [actiTIME - Enter Time-Track]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1221433900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1221433900'><pre>java.lang.AssertionError: expected [actiTIME - Login] but found [actiTIME - Enter Time-Track]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testNGPackage.AssertionInTestNG.verificationMethod(AssertionInTestNG.java:61)
+	at testNGPackage.TestCase.createUser(TestCase.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,8 +159,94 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>9</td>
-<td>testNGPackage.AssertionInTestNG@2af004b</td></tr>
+<td>1</td>
+<td>testNGPackage.TestCase@3a7442c7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGPackage.TestCase.loginMethod()'><b>loginMethod</b><br>Test class: testNGPackage.TestCase<br/>
+<a href="#Output-681564936" onClick='toggleBox("Output-681564936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-681564936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-681564936">
+Test Started!!<br/>
+Test executed successfully!!!!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.TestCase@3a7442c7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGPackage.TestCase.logout()'><b>logout</b><br>Test class: testNGPackage.TestCase<br/>
+<a href="#Output-187649742" onClick='toggleBox("Output-187649742", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-187649742" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-187649742">
+Test Skipped!!<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Throwable: Method testNGPackage.TestCase.logout() on instance testNGPackage.TestCase@3a7442c7 depends on not successfully finished methods 
+[testNGPackage.TestCase.createUser() on instance testNGPackage.TestCase@3a7442c7]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace187649742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace187649742'><pre>java.lang.Throwable: Method testNGPackage.TestCase.logout() on instance testNGPackage.TestCase@3a7442c7 depends on not successfully finished methods 
+[testNGPackage.TestCase.createUser() on instance testNGPackage.TestCase@3a7442c7]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNGPackage.TestCase@3a7442c7</td></tr>
 </table><p>
 </body>
 </html>
